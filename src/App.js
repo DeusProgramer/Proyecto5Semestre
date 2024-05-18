@@ -1,10 +1,12 @@
 import "./App.css";
-import { CajaUsuario } from "./components/cajaUsuario";
+import {UserPage} from './components/loginUse.jsx'
 
 function App() {
-  return <div className="App">
-    <CajaUsuario/>
-  </div>;
+  return (
+    <div>
+      <UserPage/>
+    </div>
+  );
 }
 
 export default App;
