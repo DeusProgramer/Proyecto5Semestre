@@ -1,0 +1,65 @@
+#imagenDeFondo
+{
+  background-image: url("../img/registroImageBaja.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: block;
+}
+
+#cajaCentral
+{
+  background-color: rgba(84, 114, 122, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  width: 40%;
+  height: 65%;
+  display: inline-block;
+  margin-top: 8.5%;
+  margin-left: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+#tituloPrimario
+{
+  color: aliceblue;
+}
+
+.cajasTexto 
+{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -45px;
+  margin-top:65px;
+  width: 50%;
+  height: 7%;
+  border-radius: 15px;
+  border: 1px solid #7EB45C;
+  color : aliceblue;
+  background: transparent;
+  font-size: 120%;
+}
+.cajasTexto::placeholder
+{
+  color : white;
+}
+
+#botonDos
+{
+  background-color:#7eb45c;
+  border-radius: 14px;
+  border: transparent;
+  width: 30%;
+  display: block;
+  margin:auto;
+  height: 7%;
+  margin-top: 12%;
+}
+
+#botonDos:hover
+{
+  background-color: #ffc118;
+}
