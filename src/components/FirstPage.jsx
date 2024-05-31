@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/FirstPageStyle.css";
 import logoOne from "./style/img/logoOne.png";
+import KonectaCompanyLogo from "./style/img/KonectaCompanyLogo.png";
 
 function FirstPage() {
   return (
@@ -35,6 +36,24 @@ function FirstPage() {
           plataforma online rapida e intuitiva para usuarios y empresas.
         </p>
       </div>
+      <div id = "segundoElemento">
+        <img src={KonectaCompanyLogo} id = "company" />
+        <h1 id="plusIA">+ IA</h1>
+
+      </div>
+      {/* -------------------------- */}
+      <footer id = "piedepagina">
+        <div>
+          <h5 id = "h5">
+            Contactos
+          </h5>
+          <a className= "enlacesF"href="">konectaCompany@gmail.com</a>
+          <a className= "enlacesF"href="">WhattApp</a>
+          <a className= "enlacesF"href="">Instagram</a>
+          <a className= "enlacesF"href="">Twitter</a>
+          <a className= "enlacesF"href="">GitHub</a>
+        </div>
+      </footer>
     </div>
   );
 }

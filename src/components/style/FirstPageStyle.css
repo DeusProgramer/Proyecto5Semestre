@@ -4,10 +4,10 @@
   background-attachment: local;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 206.5vh;
+  height: 100%;
   background-position-y: 36.5px;
   display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #encabezado {
   background-color: rgba(172, 180, 180, 0.2);
@@ -40,13 +40,62 @@
   border-bottom: 2px solid aqua;
 }
 #primerElemento {
-  display: block;
   margin: 5%;
+  display: inline-block;
   text-align: left;
-  padding-left: 15px;
+  padding: 15px;
   background-color: rgba(8, 19, 20, 0.555);
   backdrop-filter: blur(5px);
-  height: 75%;
-  width: 24%;
+  width:22% ;
   border-radius: 15px;
+}
+#piedepagina {
+  background: linear-gradient(#0e1522, #01080e);
+  border-top: 2px solid rgba(240, 248, 255, 0.2);
+  height: 40vh;
+}
+#h5
+{
+  padding-left: 20px;
+}
+.enlacesF
+{
+  width: min-content;
+  height: min-content;
+  color: rgba(240, 248, 255, 0.74);
+  font-family: monospace;
+  font-size: medium;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  display: list-item;
+  flex-flow: column;
+}
+.enlacesF:hover
+{
+  color: #26beaa;
+  box-shadow: #33f1d8;
+}
+#segundoElemento
+{
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  margin:5%;
+  padding: 15px;
+  background-color: rgba(12, 18, 19, 0.555);
+  backdrop-filter: blur(5px);
+  margin-left: 100vh;
+  width:fit-content;
+  margin-top: -75vh ;
+  margin-bottom: 50vh;
+  border-radius: 15px;
+}
+#company
+{
+  height: 125px;
+  display:grid;
+}
+#plusIA
+{
+  font-size: 500%;
 }
